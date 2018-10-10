@@ -1,9 +1,11 @@
 # Write your code here.
 katz_deli = []
 
-def line(array, name)
+def line(array)
   if array.size > 0
-    puts "Welcome, #{name}. You are number #{array.index(name) + 1}"
+    line_string = ""
+    array.each_with_index {|person, index| line << "#{index + 1}. #{person}"}
+    puts line
   else
     puts "The line is currently empty."
   end
