@@ -18,5 +18,5 @@ end
 
 def now_serving(array)
   puts "Currently serving #{array.last}."
-  array.pop
+  array.unshift
 end
