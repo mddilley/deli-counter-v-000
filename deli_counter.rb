@@ -21,6 +21,6 @@ def now_serving(array)
     puts "Currently serving #{array.last}."
     array.unshift
   else
-    puts "There is nobody watiing to be served!"
+    puts "There is nobody waiting to be served!"
   end
 end
