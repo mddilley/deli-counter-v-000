@@ -15,3 +15,8 @@ def take_a_number(array, string)
   array << string
   puts "Welcome, #{string}. You are number #{array.size} in line."
 end
+
+def now_serving(array)
+  puts "Currently serving #{array.last}."
+  array.pop
+end
