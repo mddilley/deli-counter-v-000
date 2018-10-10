@@ -17,6 +17,10 @@ def take_a_number(array, string)
 end
 
 def now_serving(array)
-  puts "Currently serving #{array.last}."
-  array.unshift
+  if array.size > 0
+    puts "Currently serving #{array.last}."
+    array.unshift
+  else
+    puts "There is nobody watiing to be served!"
+  end
 end
