@@ -10,3 +10,8 @@ def line(array)
     puts "The line is currently empty."
   end
 end
+
+def take_a_number(array, string)
+  array << string
+  puts "Wecome, #{string}. You are number #{array.size} in line."
+end
